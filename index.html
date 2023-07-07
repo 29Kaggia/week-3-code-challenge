@@ -3,36 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Flatdango</title>
+    <title>Flatdango</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js" defer></script>
 </head>
 <body>
-    <header>
-        <h1>Flatdango</h1> 
+    <header id="page_header">
+        <h1>Flatiron Movie Theater</h1>
     </header>
-   <br />
-   <div>
-    Movie
-    <ul id="films">
-        <li>The Giant Gila Monster</li>
-        <li>Manos: The Hands Of Fate</li>
-        <li>Time Chasers</li>
-        <li>The Touch Of Satan</li>
-        <li>Santa Claus Conquers The Martians</li>
-        <li>Track Of The Moon Beast</li>
-        <li>The Skydivers</li>
-        <li>The Killer Shrews</li>
-        <li>Project Moon Base</li>
-        <li>The Giant Spider Invasion</li>
-        <li>Catalina Caper</li>
-        <li>Secret Agent Super Dragon</li>
-        <li>Wild Rebels</li>
-        <li>Danger: Diabolik</li>
-        <li>Village Of The Giants</li>
-    </ul>
-   </div>
-   <div id="movie-details">
-   </div>
-   <button id="Buy-ticket">Buy-ticket</button>
-   <script> src="./script.js"</script>
+    <main id="main_content">
+        <div id="movies_titles">
+            <ul id="films">
+
+            </ul>
+        </div>
+
+        <div id="movie_content">
+            <img id="images" src="" alt="movie_poster">
+            <div id="title"></div>
+            <p id="description">
+            <span></span>
+            </p>
+            <div id="runtime"> <span></span></div>
+            <div id="capacity"><span></span></div>
+            <div id="showtime"><span></span></div>
+            <div id="tickets"><span></span></div>
+            <button id="buy_ticket"> Buy Ticket</button>
+            <p id="available"> Available: <span>10</span></p>
+        </div>
+    </main>
+    <footer id="page_footer">
+
+    </footer>
 </body>
 </html>
+     
